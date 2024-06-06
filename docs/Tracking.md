@@ -44,3 +44,9 @@ Open, **PSMSVirtualDeviceManager.exe**. Click "Download and Install" button.
 Now, install PS Eye camera driver. Under managment click "Install Playstation Eye Driver".
 
 ![5](img/Tracking/DrvInstall/5.png)
+
+# Installing and configuring PSMSEx
+
+In VDM go to "Virtual Controllers", change "Virtual tracker count" to 2. After click "Run Service" then "Run Service Config Tool".
+
+![6](img/Tracking/PSMSInstall/6.png)
