@@ -1,5 +1,4 @@
 # Tracking
-ThTracking
 The tracking of the HMD (Head Mountain Display) and controllers are tracked with the same principles as Playstation Move. That is, by using different coloured blobs, and a camera (or multiple cameras) to know where in space each blob is located.
 
 This type of tracking has the advantage of being reasonably cheap, since the blobs can be made out of ping pong balls and common LED's, and the cameras are standard Playstation Eye cameras.
