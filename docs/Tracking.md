@@ -1,9 +1,6 @@
-#
-. Tracking
-The tracking of the HMD (Head Mountain Display) and controllers are tracked with the same principles as Playstation Move.
-
 # Tracking
-The tracking of both controllers and the HMD is based on the same principle Playstation Move controllers are tracked. That is, by using different coloured blobs, and a camera (or multiple cameras) to know where in space each blob is located.
+ThTracking
+The tracking of the HMD (Head Mountain Display) and controllers are tracked with the same principles as Playstation Move. That is, by using different coloured blobs, and a camera (or multiple cameras) to know where in space each blob is located.
 
 This type of tracking has the advantage of being reasonably cheap, since the blobs can be made out of ping pong balls and common LED's, and the cameras are standard Playstation Eye cameras.
 
@@ -35,7 +32,12 @@ Maximum play area I'd say is about 4x4m (~13ft), any more and you'll have issues
 
 # Installing the PsMoveServiceEx & Drivers
 
+Plug in all your cameras and open up Device Manager, you'll probably see something similar to this:
+
+![1](img/Tracking/DrvInstall/1.png)
+
 Download [PSMoveService VDM](https://github.com/Timocop/PSMoveServiceEx-Virtual-Device-Manager/releases/).
 Open, **PSMSVirtualDeviceManager.exe**. Click "Download and Install" button.
 
-![1](img/Tracking/DrvInstall/1.png)
+![4](img/Tracking/DrvInstall/4.png)
+
