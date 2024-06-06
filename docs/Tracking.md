@@ -41,3 +41,6 @@ Open, **PSMSVirtualDeviceManager.exe**. Click "Download and Install" button.
 
 ![4](img/Tracking/DrvInstall/4.png)
 
+Now, install PS Eye camera driver. Under managment click "Install Playstation Eye Driver".
+
+![5](img/Tracking/DrvInstall/5.png)
