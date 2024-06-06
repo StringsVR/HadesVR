@@ -73,3 +73,31 @@ Back to the main menu you'll also find a menu called "Advanced settings". Here y
 The other important setting under tracker manager config is the "Ignore pose from one tracker", which should always remain enabled. This prevents jittery 1 camera tracking.
 
 ![10](img/Tracking/PSMSInstall/5.png)
+
+# Room setup
+
+There's different ways of setting up your trackers, these ways depend on the shape of your room and the amount of trackers you have.
+
+The idea is to overlap the fields of view of the trackers as much as possible while also covering the most area possible.
+
+The ideal setup for 2 and 3 cameras on a square room would be something like this:
+
+![8](img/Tracking/RoomSetup/1.png)
+
+if you have 4 cameras each one would go in one corner of the room.
+
+The more the cameras overlap, the more redundant your tracking will be.
+
+Don't forget that your cameras should also cover the floor of your play area or you'll loose tracking if you crouch or try to reach for something on the floor!
+
+Cameras should be mounted ~30cm above your head (1 foot) and angled down slightly in a way that they cover both the floor of your play area and the area above your head, that way you don't lose tracking whenever you try to reach for something on the floor, or whenever you try to reach for something above you.
+
+To test what your cameras can see, make sure PSMoveService is closed and on the PSMoveService folder open "test_camera_paralell.exe", enter "n" and you should see the view of your different cameras.
+
+### Important things on your room setup:
+
+* ⚠️ Try to avoid bright sunlight while playing since this makes it harder for the cameras to see the tracking blobs reliably.
+
+* ⚠️ Lighting should be easy to reproduce from the time you've done the color calibration, which means you should only light your area by a ceilling light and without much external light (sunlight, etc) to ensure that the blob colours look the same anywhere in the room, any time (night time, day time).
+
+* ⚠️ Cover or turn off lights that are the same colour as your tracking blobs, these confuse the tracking *badly* and you'll see them during controller calibration (RGB Keyboards, etc).
