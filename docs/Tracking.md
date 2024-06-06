@@ -8,7 +8,8 @@ This type of tracking has the advantage of being reasonably cheap, since the blo
 - They are low cost and readily available.
 - They have known lens distortion values. 
 - All Playstation Eye cameras are created equal, which means a camera bought in the America and a camera bought in Europe will run exactly the same.
-**(NOTE: You can)**
+
+**(NOTE: You can use webcams by using virtual trackers in VDM)**
 
 # What you'll need
 - [PSMoveService VDM](https://github.com/Timocop/PSMoveServiceEx-Virtual-Device-Manager/releases/)
