@@ -1,5 +1,5 @@
 # Tracking
-The tracking of the HMD (Head Mountain Display) and controllers are tracked with the same principles as Playstation Move. That is, by using different coloured blobs, and a camera (or multiple cameras) to know where in space each blob is located.
+The tracking of the HMD (Head Mountain Display) and controllers are tracked with the same principles as Playstation Move. That is, by using different colored blobs, and a camera (or multiple cameras) to know where in space each blob is located.
 
 This type of tracking has the advantage of being reasonably cheap, since the blobs can be made out of ping pong balls and common LED's, and the cameras are standard Playstation Eye cameras.
 
@@ -58,3 +58,18 @@ Then direct yourself to "Virtual Head-Mounted Devices" change "Virtual HMD Count
 After click "Run Service" then "Run Service Config Tool".
 
 ![8](img/Tracking/PSMSInstall/6.png)
+
+If you did everything correctly you should see this:
+
+![9](img/Tracking/PSMSInstall/4.png)
+
+After clicking Controller Settings you should see both of your virtual controllers. Select the correct tracking colour and hand for each (Controller 0 will be your Right hand controller and Controller 1 your left hand controller).
+
+If you click on HMD Settings on the main menu you should also see your virtual HMD. Select the correct tracking colour here too.
+
+You can also see if your Camera drivers are correctly installed by clicking on  "Tracker Settings" and checking to see if all your trackers (cameras) are in there.
+
+Back to the main menu you'll also find a menu called "Advanced settings". Here you can change some of the advanced tracker settings, the defaults are good but you might want to set "Controller position smoothing" and "Controller position prediction" to 0.2 for smoother results. 
+The other important setting under tracker manager config is the "Ignore pose from one tracker", which should always remain enabled. This prevents jittery 1 camera tracking.
+
+![10](img/Tracking/PSMSInstall/5.png)
